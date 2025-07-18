@@ -4,6 +4,7 @@ import io.qt.gui.QPainter;
 import io.qt.widgets.*;
 
 import java.time.Instant;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
@@ -76,7 +77,7 @@ public class WeatherApp {
 
             } catch (Exception e) {
                 QMessageBox.critical(window, "Fehler", "Daten konnten nicht geladen werden:\n" + e.getMessage());
-                e.printStackTrace();
+                System.out.println(Arrays.toString(e.getStackTrace()));
             }
         });
 

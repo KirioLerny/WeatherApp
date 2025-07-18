@@ -24,25 +24,31 @@
         <dependency>
             <groupId>io.qtjambi</groupId>
             <artifactId>qtjambi</artifactId>
-            <version>6.9.1</version>
+            <version>6.8.4</version>
         </dependency>
 
         <dependency>
             <groupId>io.qtjambi</groupId>
             <artifactId>qtjambi-network</artifactId>
-            <version>6.9.1</version>
+            <version>6.8.4</version>
         </dependency>
 
         <dependency>
             <groupId>io.qtjambi</groupId>
             <artifactId>qtjambi-native-macos</artifactId>
-            <version>6.9.1</version>
+            <version>6.8.4</version>
         </dependency>
 
         <dependency>
             <groupId>io.qtjambi</groupId>
             <artifactId>qtjambi-charts</artifactId>
-            <version>6.9.1</version>
+            <version>6.8.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.qtjambi</groupId>
+            <artifactId>qtjambi-charts-native-macos</artifactId>
+            <version>6.8.4</version>
         </dependency>
     </dependencies>
 </project>
