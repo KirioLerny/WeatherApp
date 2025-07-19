@@ -1,3 +1,5 @@
+package org.cityclim;
+
 public class WeatherDTO {
     public String timestamp;
     public double temperature;
